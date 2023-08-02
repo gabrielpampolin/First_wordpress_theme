@@ -51,6 +51,12 @@
                     </div>
                 </section>
 
+                <?php 
+                    $per_page = get_theme_mod('set_per_page', 3);
+                    $category_incldue = get_theme_mod('set_category_include');
+                    $category_exclude = get_theme_mod('set_category_exclude');
+                ?>
+
                 <section class="home-blog">
                     <h2>Latest News</h2>
 
@@ -59,9 +65,9 @@
 
                         $args = array(
                             'post_type'=> 'post',
-                            'posts_per_page' => 3,
-                            'category__in'  => array( 57, 6, 59),
-                            'category__not_in' => array()
+                            'posts_per_page' => $per_page,
+                            'category__in'  => explode( ",", $category_incldue ),
+                            'category__not_in' => explode( ",", $category_exclude)
                         );
 
                         $postlist = new WP_Query( $args ); 
