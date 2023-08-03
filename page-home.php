@@ -13,22 +13,22 @@
                     $hero_background = wp_get_attachment_url(get_theme_mod('set_hero_background'));
                 ?>
 
-                <section class="hero" style="background-image: url('<?php echo $hero_background ?>')">
-                    <div class="overlay" style="min-height: <?php echo $hero_height ?>px;">
+                <section class="hero" style="background-image: url('<?php echo esc_url($hero_background) ?>')">
+                    <div class="overlay" style="min-height: <?php echo esc_attr($hero_height) ?>px;">
                         <div class="container">
                             <div class="hero-items">
-                                <h1><?php echo $hero_title ?></h1>
+                                <h1><?php echo esc_html($hero_title) ?></h1>
 
-                                <p><?php echo nl2br($hero_subtitle) ?></p>
+                                <p><?php echo nl2br(esc_html($hero_subtitle)) ?></p>
 
-                                <a href="<?php echo $hero_button_link ?>"><?php echo $hero_button_text ?></a>
+                                <a href="<?php echo esc_url($hero_button_link) ?>"><?php echo esc_html($hero_button_text) ?></a>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <section class="services">
-                    <h2><?php _e('Services', 'wp-devs') ?></h2>
+                    <h2><?php esc_html_e('Services', 'wp-devs') ?></h2>
 
                     <div class="container">
                         <div class="services-item">
@@ -58,16 +58,16 @@
                 ?>
 
                 <section class="home-blog">
-                    <h2><?php _e('Latest News', 'wp-devs') ?></h2>
+                    <h2><?php esc_html_e('Latest News', 'wp-devs') ?></h2>
 
                     <div class="container">
                         <?php
 
                         $args = array(
                             'post_type'=> 'post',
-                            'posts_per_page' => $per_page,
-                            'category__in'  => explode( ",", $category_incldue ),
-                            'category__not_in' => explode( ",", $category_exclude)
+                            'posts_per_page' => esc_html($per_page),
+                            'category__in'  => explode( ",", esc_html($category_incldue) ),
+                            'category__not_in' => explode( ",", esc_html($category_exclude))
                         );
 
                         $postlist = new WP_Query( $args ); 
@@ -83,7 +83,7 @@
                             else:
                                 ?>
                                 
-                                <p><?php _e('Nothing yet to be displayed!', 'wp-devs') ?></p>
+                                <p><?php esc_html_e('Nothing yet to be displayed!', 'wp-devs') ?></p>
 
                         <?php endif; ?>
                     </div>
