@@ -1,0 +1,362 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP "
+"Devs v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2023-08-03 10:11-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.3.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:11
+msgid ""
+"Unfortunately, the page "
+"you tried to readh does "
+"not exist on this site."
+msgstr ""
+
+#: 404.php:15
+msgid ""
+"How about doing a search?"
+msgstr ""
+
+#: 404.php:21
+msgid "Latest Posts"
+msgstr ""
+
+#: archive.php:24
+#: index.php:23
+msgid "<< Newer posts"
+msgstr ""
+
+#: archive.php:26
+#: index.php:25
+msgid "Next posts >>"
+msgstr ""
+
+#: archive.php:33
+#: general-template.php:33
+#: index.php:32
+#: page-home.php:86
+msgid ""
+"Nothing yet to be "
+"displayed!"
+msgstr ""
+
+#: comments.php:34
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:61
+msgid "Page"
+msgstr ""
+
+#: comments.php:66
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:70
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:78
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: comments.php:85
+msgid "Leave a comment"
+msgstr ""
+
+#: footer.php:4
+#: inc/customizer.php:17
+msgid ""
+"Copyright X - All Rights "
+"Reserved"
+msgstr ""
+
+#: functions.php:25
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:26
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:59
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:61
+msgid ""
+"This is the Blog "
+"Sidebar, you can add "
+"your widgets here."
+msgstr ""
+
+#: functions.php:71
+msgid "Service 1"
+msgstr ""
+
+#: functions.php:73
+msgid "First Service Area."
+msgstr ""
+
+#: functions.php:83
+msgid "Service 2"
+msgstr ""
+
+#: functions.php:85
+msgid ""
+"Second Service Area."
+msgstr ""
+
+#: functions.php:95
+msgid "Service 3"
+msgstr ""
+
+#: functions.php:97
+msgid "Third Service Area."
+msgstr ""
+
+#: inc/customizer.php:8
+#: inc/customizer.php:9
+msgid "Copyright Settings"
+msgstr ""
+
+#: inc/customizer.php:25
+msgid ""
+"Copyright Information"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid ""
+"please, type your "
+"copyright here"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Hero Settings"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid ""
+"Please, add some title."
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Hero title"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid ""
+"please, type your title "
+"here"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid ""
+"Please, add some "
+"subtitle."
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Hero subtitle"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid ""
+"please, type your "
+"subtitle here"
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Learn More."
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Hero button text"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid ""
+"please, type your button "
+"text here"
+msgstr ""
+
+#: inc/customizer.php:116
+msgid "Hero button link"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid ""
+"please, type your button "
+"link here"
+msgstr ""
+
+#: inc/customizer.php:136
+msgid "Hero Height"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid ""
+"please, type your hero "
+"height."
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Hero Image"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Posts per page"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid ""
+"How many items to "
+"display in the post list?"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid ""
+"Post categories to "
+"include"
+msgstr ""
+
+#: inc/customizer.php:196
+#: inc/customizer.php:213
+msgid ""
+"Comma separated values "
+"or single category ID"
+msgstr ""
+
+#: inc/customizer.php:212
+msgid ""
+"Post categories to "
+"exclude"
+msgstr ""
+
+#: index.php:9
+msgid "Blog"
+msgstr ""
+
+#: page-home.php:8
+msgid ""
+"Please, type some title"
+msgstr ""
+
+#: page-home.php:9
+msgid ""
+"Please, type some "
+"subtitle"
+msgstr ""
+
+#: page-home.php:11
+msgid "Learn More"
+msgstr ""
+
+#: page-home.php:31
+msgid "Services"
+msgstr ""
+
+#: page-home.php:61
+msgid "Latest News"
+msgstr ""
+
+#: parts/content-latest-news.php:8
+#: parts/content-search.php:9
+#: parts/content-single.php:5
+#: parts/content.php:11
+msgid "by"
+msgstr ""
+
+#: parts/content-latest-news.php:9
+#: parts/content-search.php:12
+#: parts/content-single.php:8
+#: parts/content.php:14
+msgid "Categories"
+msgstr ""
+
+#: parts/content-latest-news.php:10
+#: parts/content-search.php:16
+#: parts/content-single.php:12
+#: parts/content.php:18
+msgid "Tags"
+msgstr ""
+
+#: parts/content-search.php:9
+#: parts/content-single.php:5
+#: parts/content.php:11
+msgid "Posted in"
+msgstr ""
+
+#: search.php:6
+msgid "Search results for"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for"
+msgstr ""
+
+#: searchform.php:7
+msgid "Search"
+msgstr ""

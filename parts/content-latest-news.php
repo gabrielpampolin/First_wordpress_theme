@@ -5,9 +5,9 @@
 
     <div class="meta-info">
         <p>
-            by <span><?php the_author_posts_link() ?></span>
-            Categories: <span><?php the_category(' ') ?></span>
-            Tags: <?php the_tags('', ', ') ?>
+            <?php _e('by', 'wp-devs') ?> <span><?php the_author_posts_link() ?></span>
+            <?php _e('Categories', 'wp-devs') ?>: <span><?php the_category(' ') ?></span>
+            <?php _e('Tags', 'wp-devs') ?>: <?php the_tags('', ', ') ?>
         </p>
 
         <p><span><?php echo get_the_date() ?></span></p>

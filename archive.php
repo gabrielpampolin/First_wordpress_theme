@@ -21,16 +21,16 @@
                                 ?>
 
                                     <div class="wpdevs-pagination">
-                                        <div class="pages new"><?php previous_posts_link("<< Newer posts") ?></div>
+                                        <div class="pages new"><?php previous_posts_link(__("<< Newer posts", 'wp-devs')) ?></div>
 
-                                        <div class="pages old"><?php next_posts_link("Next posts >>") ?></div>
+                                        <div class="pages old"><?php next_posts_link(__("Next posts >>", 'wp-devs')) ?></div>
                                     </div>
 
                                 <?php
                             else:
                                 ?>
                                 
-                                <p>Nothing yet to be displayed!</p>
+                                <p><?php _e('Nothing yet to be displayed!', 'wp-devs') ?></p>
 
                         <?php endif; ?>
                     </div>
